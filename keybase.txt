@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/aj_n
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ajnadel.com
+  * I am aj_n (https://keybase.io/aj_n) on keybase.
+  * I have a public key ASBk1m_pdeLLucgocHli8ZEshmfwiSsFVJlKrEcgEWPWawo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101428c10f25585fcdc1b597be2fc13079ad5f9b5b3b528c2cdd26c1095358a0aed0a",
+            "host": "keybase.io",
+            "kid": "012064d66fe975e2cbb9c828707962f1912c8667f0892b0554994aac47201163d66b0a",
+            "uid": "dd62ce8309472cf61b02c32fd6e88419",
+            "username": "aj_n"
+        },
+        "service": {
+            "hostname": "ajnadel.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1459190128,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1459188259,
+        "hash": "044792d580a0d682ee0414a90b3492267a708ea5a49b2edb8a18185d09480fca618792086c1c8f1f6c80149bd142be583aa02ad1df4650440257541ce6d93daa",
+        "seqno": 423709
+    },
+    "prev": "901c6753d32e714c6b055bb201207962249e164ccdf519eebf9284ddcf882897",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZNZv6XXiy7nIKHB5YvGRLIZn8IkrBVSZSqxHIBFj1msKp3BheWxvYWTFAu57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNDI4YzEwZjI1NTg1ZmNkYzFiNTk3YmUyZmMxMzA3OWFkNWY5YjViM2I1MjhjMmNkZDI2YzEwOTUzNThhMGFlZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjRkNjZmZTk3NWUyY2JiOWM4Mjg3MDc5NjJmMTkxMmM4NjY3ZjA4OTJiMDU1NDk5NGFhYzQ3MjAxMTYzZDY2YjBhIiwidWlkIjoiZGQ2MmNlODMwOTQ3MmNmNjFiMDJjMzJmZDZlODg0MTkiLCJ1c2VybmFtZSI6ImFqX24ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImFqbmFkZWwuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNCJ9LCJjdGltZSI6MTQ1OTE5MDEyOCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDU5MTg4MjU5LCJoYXNoIjoiMDQ0NzkyZDU4MGEwZDY4MmVlMDQxNGE5MGIzNDkyMjY3YTcwOGVhNWE0OWIyZWRiOGExODE4NWQwOTQ4MGZjYTYxODc5MjA4NmMxYzhmMWY2YzgwMTQ5YmQxNDJiZTU4M2FhMDJhZDFkZjQ2NTA0NDAyNTc1NDFjZTZkOTNkYWEiLCJzZXFubyI6NDIzNzA5fSwicHJldiI6IjkwMWM2NzUzZDMyZTcxNGM2YjA1NWJiMjAxMjA3OTYyMjQ5ZTE2NGNjZGY1MTllZWJmOTI4NGRkY2Y4ODI4OTciLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDbSGobVbSc0r62GvHmWZPTpvkzhE8xXPghwJy7KhKTttm3iiQTbfZJpFZXkRDWkp8bOWd+jWFOT/mxjLBpGZkFqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aj_n
+
+==================================================================
