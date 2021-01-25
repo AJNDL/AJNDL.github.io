@@ -6,21 +6,23 @@ h1 {
   font-variant: small-caps;
 }
 .portfolio-entry {
-  height: 140px;
   margin: 20px auto;
   padding: 15px;
   width: 50%;
-  padding-left: 220px;
+  padding-left: 235px;
   background-color: #eee;
-  background-size: 200px 180px;
+  background-size: 215px 180px;
   background-repeat: no-repeat;
 }
 .portfolio-entry.caltrain {
-  background-image: url('https://i0.wp.com/sf.streetsblog.org/wp-content/uploads/sites/3/2020/06/First-Trainset-on-SLC-Test-Track-May-202010-scaled.jpg?w=1200&crop=0%2C0px%2C100%2C900px&ssl=1');
+  background-image: url('assets/caltrain_2.jpeg');
 }
 .portfolio-entry.dagster {
-  background-image: url('https://user-images.githubusercontent.com/28738937/44878798-b6e17e00-ac5c-11e8-8d25-2e47e5a53418.png');
+  background-image: url('assets/dagster.png');
   background-size: auto 180px;
+}
+.portfolio-entry.robotics {
+  background-image: url('assets/robotics.jpeg');
 }
 .portfolio-entry p {
   line-height: 130%;
@@ -45,6 +47,10 @@ h1 {
 .portfolio-entry .links a:visited {
   color: #6c5ce7;
   border-color: #6c5ce7;
+}
+.portfolio-entry .links a:visited:hover {
+  background-color: #6c5ce7;
+  color: white;
 }
 .portfolio-entry .links a::after {
   content: " \2192";
