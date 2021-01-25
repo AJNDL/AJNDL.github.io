@@ -1,0 +1,99 @@
+.portfolio {
+  font-family: "Lato";
+}
+
+h1 {
+  text-align: center;
+  font-variant: small-caps;
+}
+
+@portfolio-entry-height: 140px;
+@margin: 20px;
+
+@entry-image-height: @portfolio-entry-height + 2*@margin;
+@entry-image-width: 200px;
+
+.portfolio-entry {
+  height: @portfolio-entry-height;
+  margin: @margin auto;
+  padding: 15px;
+  width: 50%;
+  padding-left: @entry-image-width + 20px;
+  background-color: #eee;
+  
+  background-size: @entry-image-width @entry-image-height;
+  background-repeat: no-repeat;
+  
+  &.caltrain {
+    background-image: url('https://i0.wp.com/sf.streetsblog.org/wp-content/uploads/sites/3/2020/06/First-Trainset-on-SLC-Test-Track-May-202010-scaled.jpg?w=1200&crop=0%2C0px%2C100%2C900px&ssl=1');
+  }
+  &.dagster {
+    background-image: url('https://user-images.githubusercontent.com/28738937/44878798-b6e17e00-ac5c-11e8-8d25-2e47e5a53418.png');
+    background-size: auto @entry-image-height;
+  }
+  
+  
+  // ul {
+  //   float: left;
+  //   // text-align: right;
+  //   // font-variant: small-caps;
+  //   padding-left: 0px;
+  //   font-size: 0.8rem;
+  //   margin: 10px 0px;
+  //   margin-left: -4px;
+  //   li {
+  //     display: inline-block;
+  //     background-color: #d2d2d2;
+  //     padding: 4px 6px;
+  //     margin-right: 4px;
+  //   }
+  // }
+  
+  p {
+    line-height: 130%;
+    margin: 0;
+  }
+  
+  .links {
+    text-align: right;
+    // float: right;
+    // margin: 20px 0;
+    
+    a {
+      text-decoration: none;
+      display: inline-block;
+      border: 1px solid #0984e3;
+      color: #0984e3;
+      padding: 4px 10px;
+      margin-left: 5px;
+      transition: color 0.2s, background-color 0.2s;
+      
+      &:hover {
+        background-color: #0984e3;
+        color: white;
+      }
+      
+      &:visited {
+        color: #6c5ce7;
+        border-color: #6c5ce7;
+      }
+      
+      &::after {
+        content: " \2192";
+      }
+    }
+  }
+}
+
+.entry-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  
+  margin-bottom: 10px;
+  
+  span {
+    float: right;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+}
